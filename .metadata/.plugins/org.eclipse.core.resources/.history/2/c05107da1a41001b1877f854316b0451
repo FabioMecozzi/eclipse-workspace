@@ -1,0 +1,10 @@
+package com.ddgfm.ProgettoOOP.model;
+
+public class Database {
+	public Database() {
+		// TODO Auto-generated constructor stub
+	}
+	public Settings getSettings(String key) {
+		return new Settings();
+	}
+}

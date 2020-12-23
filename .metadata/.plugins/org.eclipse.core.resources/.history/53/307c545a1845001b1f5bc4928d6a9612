@@ -1,0 +1,61 @@
+package com.ddgfm.ProgettoOOP.controller;
+
+import java.util.ArrayList;
+
+import org.springframework.beans.factory.ListableBeanFactory;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.HttpClientErrorException.BadRequest;
+
+import com.ddgfm.ProgettoOOP.model.City;
+import com.ddgfm.ProgettoOOP.model.Configuration;
+import com.ddgfm.ProgettoOOP.model.Settings;
+import com.ddgfm.ProgettoOOP.model.Statistics;
+import com.ddgfm.ProgettoOOP.service.UVService;
+
+
+/**
+ * @author Fabio Mecozzi
+ * @author Davide De Grazia
+ * Classe controller che gestisce tutte le rotte del servizio
+ */
+
+
+
+/**
+ * @author meefa
+ *
+ */
+@RestController
+public class Controller {
+	
+	
+	
+
+	/**
+	 * Rotta di benvenuto: Fornisce all'utente informazioni e link utili
+	 * @return Json con informazioni utili per l'utilizzo dell'API
+	 */
+	@GetMapping("/")
+	public ArrayList<Integer> Home() {
+		ArrayList<Integer> oggetto = new ArrayList<Integer>();
+		oggetto.add(10);
+		oggetto.add(17);
+/*		String responseString="";
+		
+		//da implementare
+		
+		return responseString;
+		*/
+		return oggetto;
+	}
+	
+	
+}
+
+
+
+

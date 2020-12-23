@@ -1,0 +1,22 @@
+package com.ddgfm.ProgettoOOP.model;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.web.client.HttpClientErrorException.BadRequest;
+
+@Repository
+public class Database {
+	public Database() {
+		// TODO Auto-generated constructor stub
+	}
+	public static Settings getSettings(String key) {
+		return new Settings();//da implementare
+	}
+	
+	public static void ChangeSettings(Settings newSettings, String key) throws BadRequest {
+		
+		
+		//da implementare
+		
+	}	
+	
+}

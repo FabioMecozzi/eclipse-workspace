@@ -1,0 +1,18 @@
+package com.ddgfm.ProgettoOOP.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author Fabio Mecozzi
+ * @author Davide De Grazia
+ * Classe controller che gestisce tutte le rotte del servizio
+ */
+@RestController
+public class Controller {
+	@GetMapping("/")
+	public Controller() {
+		// TODO Auto-generated constructor stub
+	}
+}

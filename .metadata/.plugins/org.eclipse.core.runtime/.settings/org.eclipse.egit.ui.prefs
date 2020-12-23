@@ -1,0 +1,5 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Aggiunto citylist&\#x0A;&\#x0A;Lista contenente coordinate e nomi delle citt\u00E0 disponibili su&\#x0A;openweathermap</message>\r\n<message>Creata una bozza della classe controller.&\#x0A;&\#x0A;Sono state aggiunte anche le classi city, database, setting e&\#x0A;statistics(tutte ancora da implementare), perch\u00E8 necessarie al&\#x0A;controller.</message>\r\n<message>Arricchiti i casi d&apos;uso</message>\r\n<message>Modificati casi d&apos;uso e aggiunta una bozza del diagramma delle classi</message>\r\n<message>Inizialied</message>\r\n</messages>
+eclipse.preferences.version=1
+repositories_view_filters=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<FilterCache/>
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

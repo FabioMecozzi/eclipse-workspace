@@ -1,0 +1,33 @@
+package com.ddgfm.ProgettoOOP.model;
+
+public class User {
+	private int id;
+	private String key;
+	private Settings username;
+	private boolean isAdmin;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getKey() {
+		return key;
+	}
+	public void setKey(String key) {
+		this.key = key;
+	}
+	public Settings getUsername() {
+		return username;
+	}
+	public void setUsername(Settings username) {
+		this.username = username;
+	}
+	public boolean isAdmin() {
+		return isAdmin;
+	}
+	public void setAdmin(boolean isAdmin) {
+		this.isAdmin = isAdmin;
+	}
+}
